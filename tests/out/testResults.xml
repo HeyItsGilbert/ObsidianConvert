@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="29" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-07-11" time="16:58:07">
+  <environment machine-name="gsanchez-mbp" nunit-version="2.5.8.0" clr-version="Unknown" cwd="/Users/gsanchez/repos/ObsidianConvert/tests" os-version="21.5.0" user="gsanchez" platform="Darwin" user-domain="" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="1.1082" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="/Users/gsanchez/repos/ObsidianConvert/tests/Help.tests.ps1" executed="True" result="Success" success="True" time="0.813" asserts="0" description="/Users/gsanchez/repos/ObsidianConvert/tests/Help.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Test help for ConvertFrom-ObsidianNote" executed="True" result="Success" success="True" time="0.2969" asserts="0" description="Test help for ConvertFrom-ObsidianNote">
+            <results>
+              <test-suite type="TestFixture" name="Test help for ConvertFrom-ObsidianNote.Parameter DestinationPath" executed="True" result="Success" success="True" time="0.2113" asserts="0" description="Test help for ConvertFrom-ObsidianNote.Parameter DestinationPath">
+                <results>
+                  <test-case description="Has description" name="Test help for ConvertFrom-ObsidianNote.Parameter DestinationPath.Has description" time="0.0112" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for ConvertFrom-ObsidianNote.Parameter DestinationPath.Has correct [mandatory] value" time="0.0337" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for ConvertFrom-ObsidianNote.Parameter DestinationPath.Has correct parameter type" time="0.0076" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for ConvertFrom-ObsidianNote.Parameter Source" executed="True" result="Success" success="True" time="0.2594" asserts="0" description="Test help for ConvertFrom-ObsidianNote.Parameter Source">
+                <results>
+                  <test-case description="Has description" name="Test help for ConvertFrom-ObsidianNote.Parameter Source.Has description" time="0.0061" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for ConvertFrom-ObsidianNote.Parameter Source.Has correct [mandatory] value" time="0.0066" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for ConvertFrom-ObsidianNote.Parameter Source.Has correct parameter type" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-case description="Help is not auto-generated" name="Test help for ConvertFrom-ObsidianNote.Help is not auto-generated" time="0.0988" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for ConvertFrom-ObsidianNote.Has description" time="0.0129" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for ConvertFrom-ObsidianNote.Has example code" time="0.0089" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for ConvertFrom-ObsidianNote.Has example help" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Test help for Read-ObsidianNote" executed="True" result="Success" success="True" time="0.3793" asserts="0" description="Test help for Read-ObsidianNote">
+            <results>
+              <test-suite type="TestFixture" name="Test help for Read-ObsidianNote.Parameter File" executed="True" result="Success" success="True" time="0.0587" asserts="0" description="Test help for Read-ObsidianNote.Parameter File">
+                <results>
+                  <test-case description="Has description" name="Test help for Read-ObsidianNote.Parameter File.Has description" time="0.007" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Read-ObsidianNote.Parameter File.Has correct [mandatory] value" time="0.007" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Read-ObsidianNote.Parameter File.Has correct parameter type" time="0.008" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-case description="Help is not auto-generated" name="Test help for Read-ObsidianNote.Help is not auto-generated" time="0.0062" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Read-ObsidianNote.Has description" time="0.0056" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Read-ObsidianNote.Has example code" time="0.0057" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Read-ObsidianNote.Has example help" time="0.0061" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/Users/gsanchez/repos/ObsidianConvert/tests/Manifest.tests.ps1" executed="True" result="Success" success="True" time="0.1399" asserts="0" description="/Users/gsanchez/repos/ObsidianConvert/tests/Manifest.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Module manifest" executed="True" result="Success" success="True" time="0.1023" asserts="0" description="Module manifest">
+            <results>
+              <test-suite type="TestFixture" name="Module manifest.Validation" executed="True" result="Success" success="True" time="0.0976" asserts="0" description="Module manifest.Validation">
+                <results>
+                  <test-case description="Has a valid manifest" name="Module manifest.Validation.Has a valid manifest" time="0.0085" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid name in the manifest" name="Module manifest.Validation.Has a valid name in the manifest" time="0.006" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid root module" name="Module manifest.Validation.Has a valid root module" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the manifest" name="Module manifest.Validation.Has a valid version in the manifest" time="0.0088" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid description" name="Module manifest.Validation.Has a valid description" time="0.0119" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid author" name="Module manifest.Validation.Has a valid author" time="0.0065" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid guid" name="Module manifest.Validation.Has a valid guid" time="0.0202" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid copyright" name="Module manifest.Validation.Has a valid copyright" time="0.0067" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the changelog" name="Module manifest.Validation.Has a valid version in the changelog" time="0.0069" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Changelog and manifest versions are the same" name="Module manifest.Validation.Changelog and manifest versions are the same" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/Users/gsanchez/repos/ObsidianConvert/tests/Meta.tests.ps1" executed="True" result="Success" success="True" time="0.1553" asserts="0" description="/Users/gsanchez/repos/ObsidianConvert/tests/Meta.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Text files formatting" executed="True" result="Success" success="True" time="0.0263" asserts="0" description="Text files formatting">
+            <results>
+              <test-suite type="TestFixture" name="Text files formatting.File encoding" executed="True" result="Success" success="True" time="0.0102" asserts="0" description="Text files formatting.File encoding">
+                <results>
+                  <test-case description="No text file uses Unicode/UTF-16 encoding" name="Text files formatting.File encoding.No text file uses Unicode/UTF-16 encoding" time="0.0059" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Text files formatting.Indentations" executed="True" result="Success" success="True" time="0.0222" asserts="0" description="Text files formatting.Indentations">
+                <results>
+                  <test-case description="No text file use tabs for indentations" name="Text files formatting.Indentations.No text file use tabs for indentations" time="0.0066" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
